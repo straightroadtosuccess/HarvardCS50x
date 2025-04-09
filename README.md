@@ -111,24 +111,3 @@ C, Python, SQL, JavaScript, CSS, HTML
 * [Hello, Flask](https://cs50.harvard.edu/x/2023/problems/9/helloflask/)
 * [Birthdays](https://cs50.harvard.edu/x/2023/labs/9/)
 * [C$50 Finance](https://cs50.harvard.edu/x/2023/psets/9/finance/)
-
-#### [Final Project](https://cs50.harvard.edu/x/2023/project/) - [MyLibrary](https://github.com/yasingunay/MyLibrary.git)
-
-## Useful resources
-* [The best video series about Singly Linked List](https://www.youtube.com/playlist?list=PLBlnK6fEyqRi3-lvwLGzcaquOs5OBTCww)
-* [5 Simple Steps for Solving Any Recursive Problem](https://www.youtube.com/watch?v=ngCos392W4w&ab_channel=Reducible)
-* [Realloc](https://www.youtube.com/watch?v=z-MHVnhpf9w&t=2s&ab_channel=Log2Base2%C2%AE)
-* [Python Tutorial](https://www.w3schools.com/python/default.asp)
-* [Regular Expressions](https://regex101.com/)
-* [DB Browser for SQLite](https://sqlitebrowser.org/)
-* [SQL Keywords Reference](https://www.w3schools.com/sql/sql_ref_keywords.asp)
-* [Bootstrap](https://getbootstrap.com/)
-* [Documenting web technologies, including CSS, HTML, and JavaScript](https://developer.mozilla.org/en-US/)
-* [Markup Validation Service](https://validator.w3.org/#validate_by_input)
-
-## Tips
-* Test your code with different inputs. check50 does not find some errors!
-  
-![50!](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*IYCifTCCR2ah-79u94Z3wg.png)
-
-*Please note that this repository is for storing my projects and files from Harvard University's CS50x course. It is not meant for sharing answers or encouraging academic dishonesty. If you are currently enrolled, please complete the assignments independently and refer to the course materials.*
