@@ -1,4 +1,4 @@
-# CS50x - 2023
+# CS50x - 2025
 
 [General Information](https://pll.harvard.edu/course/cs50-introduction-computer-science)
 
