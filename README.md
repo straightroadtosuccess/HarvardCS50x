@@ -1,5 +1,3 @@
-![CS50Certificate!](CS50x-Certificate.png)
-
 # CS50x - 2023
 
 [General Information](https://pll.harvard.edu/course/cs50-introduction-computer-science)
