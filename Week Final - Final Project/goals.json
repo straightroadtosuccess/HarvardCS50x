@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Walk",
+        "current": 50.0,
+        "target": 100,
+        "logs": [
+            {
+                "date": "2025-09-07",
+                "amount": 20.0
+            },
+            {
+                "date": "2025-09-07",
+                "amount": 40.0
+            },
+            {
+                "date": "2025-09-07",
+                "amount": 50.0
+            }
+        ]
+    },
+    {
+        "name": "Drink water",
+        "current": 40.0,
+        "target": 100,
+        "logs": [
+            {
+                "date": "2025-09-07",
+                "amount": 10.0
+            },
+            {
+                "date": "2025-09-07",
+                "amount": 40.0
+            }
+        ]
+    },
+    {
+        "name": "Sleep",
+        "current": 50.0,
+        "target": 100,
+        "logs": [
+            {
+                "date": "2025-09-07",
+                "amount": 20.0
+            },
+            {
+                "date": "2025-09-07",
+                "amount": 50.0
+            }
+        ]
+    },
+    {
+        "name": "Cook meal",
+        "current": 40.0,
+        "target": 100,
+        "logs": [
+            {
+                "date": "2025-09-07",
+                "amount": 20.0
+            },
+            {
+                "date": "2025-09-07",
+                "amount": 40.0
+            }
+        ]
+    }
+]
