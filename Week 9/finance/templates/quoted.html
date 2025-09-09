@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}Quoted{% endblock %}
+
+{% block main %}
+<h2>Stock Quote</h2>
+
+{% if stock %}
+    <p><strong>Symbol:</strong> {{ stock.symbol }}</p>
+    <p><strong>Name:</strong> {{ stock.name }}</p>
+    <p><strong>Price:</strong> ${{ "%.2f"|format(stock.price) }}</p>
+{% else %}
+    <p>No stock data found. Please try again.</p>
+{% endif %}
+
+<a href="{{ url_for('quote') }}">Look up another symbol</a>
+{% endblock %}

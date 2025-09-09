@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy
+{% endblock %}
+
+{% block main %}
+    <h2>Buy Stock</h2>
+    <form action="{{ url_for('buy') }}" method="post">
+        <div>
+            <label for="symbol">Symbol</label>
+            <input type="text" name="symbol" id="symbol" placeholder="AAPL" required>
+        </div>
+        <div>
+            <label for="shares">Shares</label>
+            <input type="number" name="shares" id="shares" min="1" required>
+        </div>
+        <button type="submit">Buy</button>
+    </form>
+
+    <hr>
+
+    <h3>Popular Symbols</h3>
+    <ul>
+        <li><strong>AAPL</strong> – Apple Inc.</li>
+        <li><strong>TSLA</strong> – Tesla, Inc.</li>
+        <li><strong>AMZN</strong> – Amazon.com, Inc.</li>
+        <li><strong>GOOGL</strong> – Alphabet Inc.</li>
+        <li><strong>MSFT</strong> – Microsoft Corporation</li>
+        <li><strong>NVDA</strong> – NVIDIA Corporation</li>
+    </ul>
+{% endblock %}

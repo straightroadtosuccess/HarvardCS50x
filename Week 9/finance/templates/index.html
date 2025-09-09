@@ -1,0 +1,26 @@
+<!-- templates/index.html -->
+{% extends "layout.html" %}
+
+{% block main %}
+<h1>Portfolio</h1>
+
+<p>Cash: {{ cash|usd }}</p>
+<p>Grand total: {{ grand_total|usd }}</p>
+
+<table>
+    <tr>
+        <th>Symbol</th>
+        <th>Shares</th>
+        <th>Price</th>
+        <th>Total</th>
+    </tr>
+    {% for stock in stocks %}
+    <tr>
+        <td>{{ stock.symbol }}</td>
+        <td>{{ stock.shares }}</td>
+        <td>{{ stock.price|usd }}</td>
+        <td>{{ stock.total|usd }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
