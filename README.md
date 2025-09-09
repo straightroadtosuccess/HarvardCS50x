@@ -1,3 +1,5 @@
+<img width="2112" height="1632" alt="CS50x" src="https://github.com/user-attachments/assets/12aee6d0-2c44-4eef-9821-4a81242ba2e9" />
+
 # CS50x - 2023
 
 [General Information](https://pll.harvard.edu/course/cs50-introduction-computer-science)
